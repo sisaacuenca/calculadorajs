@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>calculadora</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/calculadora.js"></script>
+</head>
+
+<body onload="init()">
+    <h1>Calculadora sencilla</h1>
+
+    <br>
+    <div>
+
+        <table>
+            <thead>
+                <tr>
+                    <td colspan="4" id="display"><span id="resultado"></span></td>
+                </tr>
+                <tr>
+
+
+                    <th colspan="4"><button id="C">C</button></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><button id="7">7</button></td>
+                    <td><button id="8">8</button></td>
+                    <td><button id="9">9</button></td>
+                    <td><button id="*">*</button></td>
+                </tr>
+                <tr>
+                    <td><button id="4">4</button></td>
+                    <td><button id="5">5</button></td>
+                    <td><button id="6">6</button></td>
+                    <td><button id="-">-</button></td>
+                </tr>
+                <tr>
+                    <td><button id="1">1</button></td>
+                    <td><button id="2">2</button></td>
+                    <td><button id="3">3</button></td>
+                    <td><button id="+">+</button></td>
+                </tr>
+                <tr>
+
+                    <td><button id="/">/</button></td>
+                    <td><button id="0">0</button></td>
+                    <td><button id=",">,</button></td>
+                    <td><button id="=">=</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
